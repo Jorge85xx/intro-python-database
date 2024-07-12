@@ -1,3 +1,5 @@
 **/_pyache_/
-
+.vscode
 venv/
+.idea
+.pytest_cache
