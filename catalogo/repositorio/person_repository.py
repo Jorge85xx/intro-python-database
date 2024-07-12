@@ -4,11 +4,7 @@ from typing import List
 
 class PersonRepository:
 
-<<<<<<< HEAD
     def __init__(self) -> None:
-=======
-    def __int__(self):
->>>>>>> origin/main
         self.storage: List[Person] = []
         self.last_used_id: int = 0
 

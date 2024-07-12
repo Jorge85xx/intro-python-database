@@ -3,16 +3,10 @@ from catalogo.repositorio.person_repository import PersonRepository
 import datetime
 import unittest
 
-<<<<<<< HEAD
 
-class PersonRepositoryTestCase(unittest.TestCase):
-
-    def setUp(self):
-=======
 class PersonRepositoryTestCase(unittest.TestCase):
 
     def setUp(self) -> None:
->>>>>>> origin/main
         self.repository: PersonRepository = PersonRepository()
 
     def test_insert_operation(self):
