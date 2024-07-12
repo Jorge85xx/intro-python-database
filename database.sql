@@ -6,7 +6,7 @@ create table Contato;
 
 use Contato;
 
-create  table Pessoa(
+create table Pessoa(
     id_pessoa integer not null auto_increment,
     nome varchar(75) not null,
     nascimento date null,
